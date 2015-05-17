@@ -20,7 +20,7 @@ It is important to note that iOS doesn't like umbrella framework, so make sure y
 Before you do anything, you need to get the credentials for your app
 
 ``` swift
-let authenticationRequest = ProductHunt.Endpoint.ClientToken(id: clientId, secret: clientSecret)
+let authenticationRequest = ProductHunt.Endpoint.ClientToken(id: "your-clientId", secret: "your-clientSecret")
 
 ProductHunt.sendRequest(authenticationRequest) { response in
     switch response {
