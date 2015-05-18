@@ -72,13 +72,16 @@ public struct Post: Model {
 public struct PostStats {
     public let votes: Int
     public let comments: Int
+    public let createdAt: NSDate?
     
     public init?(dictionary: NSDictionary) {
         if
             let votes = dictionary["votes_count"] as? Int,
-            let comments = dictionary["comments_count"] as? Int {
+            let comments = dictionary["comments_count"] as? Int,
+            let createdAt = dictionary["created_at"] as? String {
                 self.votes = votes
                 self.comments = comments
+                self.createdAt = formatter.dateFromString(createdAt)
                 
         } else {
             return nil

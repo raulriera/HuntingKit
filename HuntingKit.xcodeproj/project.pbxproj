@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C21831F1B0A50AD001BD2CD /* Static.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C21831E1B0A50AD001BD2CD /* Static.swift */; };
 		4C8767B81B08C1A70005BF89 /* HuntingKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C8767B71B08C1A70005BF89 /* HuntingKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C8767BE1B08C1A70005BF89 /* HuntingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8767B21B08C1A70005BF89 /* HuntingKit.framework */; };
 		4C8767C51B08C1A70005BF89 /* HuntingKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8767C41B08C1A70005BF89 /* HuntingKitTests.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C21831E1B0A50AD001BD2CD /* Static.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Static.swift; sourceTree = "<group>"; };
 		4C8767B21B08C1A70005BF89 /* HuntingKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HuntingKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8767B61B08C1A70005BF89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C8767B71B08C1A70005BF89 /* HuntingKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuntingKit.h; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				4C8767B71B08C1A70005BF89 /* HuntingKit.h */,
 				4C8767EA1B08C2490005BF89 /* HuntingKit.swift */,
 				4C8767CE1B08C1E40005BF89 /* Keychain.swift */,
+				4C21831E1B0A50AD001BD2CD /* Static.swift */,
 				4C8767E91B08C22D0005BF89 /* Endpoints */,
 				4C8767E81B08C20F0005BF89 /* Models */,
 				4C8767B51B08C1A70005BF89 /* Supporting Files */,
@@ -309,6 +312,7 @@
 				4C8767E11B08C1FD0005BF89 /* ImagesURL.swift in Sources */,
 				4C8767E01B08C1FD0005BF89 /* AccessToken.swift in Sources */,
 				4C8767E51B08C1FD0005BF89 /* Vote.swift in Sources */,
+				4C21831F1B0A50AD001BD2CD /* Static.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,6 +514,7 @@
 				4C8767CA1B08C1A70005BF89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C8767CB1B08C1A70005BF89 /* Build configuration list for PBXNativeTarget "HuntingKitTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +523,7 @@
 				4C8767CD1B08C1A70005BF89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
