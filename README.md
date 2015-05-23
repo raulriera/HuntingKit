@@ -5,7 +5,7 @@ Wrapper for the Product Hunt API. Written in Swift and built on top of the [APIK
   <img src="Logo.jpg" />
 </p>
 
-## Installation
+## Installation:
 
 [Carthage](https://github.com/carthage/carthage) is the recommended way to install HuntingKit. Add the following to your Cartfile:
 
@@ -14,6 +14,10 @@ github "raulriera/HuntingKit"
 ```
 
 It is important to note that iOS doesn't like umbrella framework, so make sure you import to your projects all the dependency frameworks.
+
+## Demo:
+
+For a full feature demostration please checkout the [HuntingCompanion](https://github.com/raulriera/HuntingCompanion) app.
 
 ## Usage:
 
