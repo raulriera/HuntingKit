@@ -13,11 +13,11 @@ Wrapper for the Product Hunt API. Written in Swift and built on top of the [APIK
 github "raulriera/HuntingKit"
 ```
 
-It is important to note that iOS doesn't like umbrella framework, so make sure you import to your projects all the dependency frameworks.
+It is important to note that iOS doesn't like umbrella frameworks, so make sure you embed all the dependent frameworks in your bundle.
 
 ## Demo:
 
-For a full feature demostration please checkout the [HuntingCompanion](https://github.com/raulriera/HuntingCompanion) app.
+For a full feature demostration please checkout the [HuntingCompanion](https://github.com/raulriera/HuntingCompanion) app. You can find a lot of goodies in there.
 
 ## Usage:
 
